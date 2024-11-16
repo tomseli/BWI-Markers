@@ -1,7 +1,8 @@
 name  = "BWI"
 prefix = "bwi"
 author = "Black Watch International"
-files = [
+[files]
+ include = [
     "mod.cpp",
     "bwi.paa"
     ]
