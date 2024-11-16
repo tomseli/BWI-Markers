@@ -54,4 +54,4 @@ class bwi_markers {
         class initCBASettings{};
         class initMarkers{};
     };
-}
+};

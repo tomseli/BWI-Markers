@@ -2,11 +2,11 @@ class Default;
 
 
 // Make editor-only colours available on the map.
-class ColorBrown: Default { scope = 2 };
-class ColorGrey: Default { scope = 2 };
-class ColorKhaki: Default { scope = 2 };
-class ColorOrange: Default { scope = 2 };
-class ColorPink: Default { scope = 2 };
+class ColorBrown: Default { scope = 2; };
+class ColorGrey: Default { scope = 2; };
+class ColorKhaki: Default { scope = 2; };
+class ColorOrange: Default { scope = 2; };
+class ColorPink: Default { scope = 2; };
 
 // Add new colours.
 class ColorTurq: Default
