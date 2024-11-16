@@ -30,7 +30,11 @@ addMissionEventHandler ["Map",
 			[_display] call bwi_markers_fnc_registerKeyDownHandler;
 
 			// Register the map filter per frame handler.
-			call bwi_markers_fnc_registerMapFilterHandler;
+
+			// DEPRECATED
+			// Removed registering since we don't care about 
+			// sides for PvP
+			// call bwi_markers_fnc_registerMapFilterHandler;
 		// Map closed.
 		} else {
 			// Deegister map display event handlers.
