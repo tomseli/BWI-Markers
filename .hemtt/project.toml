@@ -32,4 +32,4 @@ parameters = [
     "-debug",
     "-filePatching",
 ]
-missions = "Development.VR"
+mission = "Development.VR"

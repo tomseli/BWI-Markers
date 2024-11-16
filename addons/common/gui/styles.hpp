@@ -33,8 +33,8 @@ class BwiGui_RscButton: RscButton
 	colorBackground[] = {0.275,0.463,0.694,1};
 	colorBackgroundActive[] = {0.6,0.78,1,1};
 
-	sizeEx = "QUOTE(GUI_GRID_CENTER_H)";
-	font = "QUOTE(GUI_FONT_NORMAL)";	
+	sizeEx = "((((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
+	font = Q_GUI_FONT_NORMAL;	
 };
 
 class BwiGui_RscCombo: RscCombo
@@ -57,8 +57,8 @@ class BwiGui_RscListBox: RscListBox
 	colorDisabled[] = {1,1,1,0.5};
 	colorBackground[] = {0.1,0.1,0.1,1};
 
-	sizeEx = "QUOTE(GUI_GRID_CENTER_H)";
-	font = "QUOTE(GUI_FONT_NORMAL)";
+	sizeEx = "((((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
+	font = Q_GUI_FONT_NORMAL;
 };
 
 class BwiGui_RscXListBox: RscXListBox
@@ -73,8 +73,8 @@ class BwiGui_RscXListBox: RscXListBox
 	colorDisabled[] = {1,1,1,0.5};
 	colorBackground[] = {0.1,0.1,0.1,1};
 
-	sizeEx = "QUOTE(GUI_GRID_CENTER_H)";
-	font = "QUOTE(GUI_FONT_NORMAL)";
+	sizeEx = "((((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
+	font = Q_GUI_FONT_NORMAL;
 };
 
 class BwiGui_RscTree: RscTree
@@ -91,8 +91,8 @@ class BwiGui_RscTree: RscTree
 	colorPictureDisabled[] = {1,1,1,0.5};
 	colorPictureSelected[] = {1,1,1,1};
 
-	sizeEx = "QUOTE(GUI_GRID_CENTER_H)";
-	font = "QUOTE(GUI_FONT_NORMAL)";
+	sizeEx = "((((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
+	font = Q_GUI_FONT_NORMAL;
 
 	class ScrollBar;
 	class BwiGui_ScrollBar: ScrollBar {
