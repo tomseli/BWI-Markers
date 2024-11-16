@@ -32,10 +32,12 @@ if ( isServer ) then {
 
 	// Create the marker.
 	private _marker = createMarker [_markerID, _worldPosition];
-	_marker setMarkerShape "ICON";
-	_marker setMarkerType _markerIcon;
-	_marker setMarkerText _markerText;
-	_marker setMarkerSize _markerSize;
+	
+	// MP Optimisation: setMarker always broadcasts the entire marker state
+	_marker setMarkerShapeLocal "ICON";
+	_marker setMarkerTypeLocal _markerIcon;
+	_marker setMarkerTextLocal _markerText;
+	_marker setMarkerSizeLocal _markerSize;
 	_marker setMarkerColor _markerColor;
 
 	// RemoteExec the success response on the client that requested the marker.
