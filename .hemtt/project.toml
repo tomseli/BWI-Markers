@@ -1,11 +1,14 @@
 name  = "BWI"
 prefix = "bwi"
 author = "Black Watch International"
+mainprefix = "z"
+
 [files]
  include = [
     "mod.cpp",
     "bwi.paa"
     ]
+
 [version]
 major = 1
 minor = 0
@@ -16,3 +19,17 @@ pdrive = "require"
 
 [hemtt.check]
 pdrive = "require"
+
+[hemtt.launch.default]
+workshop = [
+    "450814997", # CBA
+    "463939057"  # ACE
+]
+parameters = [
+    "-skipIntro",           # These parameters are passed to the Arma 3 executable
+    "-noSplash",            # They do not need to be added to your list
+    "-showScriptErrors",    # You can add additional parameters here
+    "-debug",
+    "-filePatching",
+]
+missions = "Development.VR"
