@@ -10,3 +10,9 @@ author = "Black Watch International"
 major = 1
 minor = 0
 patch = 0
+
+[hemtt.build]
+pdrive = "require"
+
+[hemtt.check]
+pdrive = "require"
