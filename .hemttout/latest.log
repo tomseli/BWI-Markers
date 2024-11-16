@@ -1,0 +1,46 @@
+2024-11-16T10:06:44.259842Z  INFO ThreadId(01) HEMTT 1.13.5 is available, please update
+2024-11-16T10:06:44.259878Z TRACE ThreadId(01) HEMTT is installed at: C:\Users\tomse\AppData\Local\Microsoft\WinGet\Packages\BrettMayson.HEMTT_Microsoft.Winget.Source_8wekyb3d8bbwe\hemtt.exe
+2024-11-16T10:06:44.259885Z TRACE ThreadId(01) version: 1.13.0
+2024-11-16T10:06:44.259888Z TRACE ThreadId(01) platform: windows
+2024-11-16T10:06:44.259892Z TRACE ThreadId(01) args: [
+    "hemtt",
+    "check",
+]
+2024-11-16T10:06:44.260121Z TRACE ThreadId(01) using temporary folder: "C:\\Users\\tomse\\AppData\\Local\\Temp\\hemtt\\Repositories_BWI-Markers"
+2024-11-16T10:06:44.260127Z TRACE ThreadId(01) using project folder: "C:\\Repositories\\BWI-Markers"
+2024-11-16T10:06:44.260129Z TRACE ThreadId(01) using out folder: "C:\\Repositories\\BWI-Markers\\.hemttout"
+2024-11-16T10:06:44.260230Z TRACE ThreadId(01) using build folder: "C:\\Repositories\\BWI-Markers\\.hemttout\\check"
+2024-11-16T10:06:44.261139Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/common/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\tomse\\AppData\\Local\\Temp\\hemtt\\Repositories_BWI-Markers\\output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Repositories\\BWI-Markers" } } } } } }] } } }
+2024-11-16T10:06:44.261198Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/common/$prefix$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\tomse\\AppData\\Local\\Temp\\hemtt\\Repositories_BWI-Markers\\output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Repositories\\BWI-Markers" } } } } } }] } } }
+2024-11-16T10:06:44.263965Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/markers/$prefix$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\tomse\\AppData\\Local\\Temp\\hemtt\\Repositories_BWI-Markers\\output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Repositories\\BWI-Markers" } } } } } }] } } }
+2024-11-16T10:06:44.264328Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/markers/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\tomse\\AppData\\Local\\Temp\\hemtt\\Repositories_BWI-Markers\\output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Repositories\\BWI-Markers" } } } } } }] } } }
+2024-11-16T10:06:44.283860Z TRACE ThreadId(01) reading version from project.toml
+2024-11-16T10:06:44.287384Z  INFO ThreadId(01) Config loaded for BWI Markers 1.0.0-83678008
+2024-11-16T10:06:44.287444Z TRACE ThreadId(01) Scanning C:\Repositories\BWI-Markers\addons for addons
+2024-11-16T10:06:44.287755Z  INFO ThreadId(01) Running checks
+2024-11-16T10:06:44.287771Z TRACE ThreadId(01) phase: init (Hooks) (start)
+2024-11-16T10:06:44.287803Z TRACE ThreadId(01) no hooks folder
+2024-11-16T10:06:44.287810Z TRACE ThreadId(01) phase: init (Hooks) (done)
+2024-11-16T10:06:44.287812Z TRACE ThreadId(01) phase: init (Rapifier) (start)
+2024-11-16T10:06:44.287814Z TRACE ThreadId(01) phase: init (Rapifier) (done)
+2024-11-16T10:06:44.287816Z TRACE ThreadId(01) phase: init (SQF) (start)
+2024-11-16T10:06:44.496132Z TRACE ThreadId(01) phase: init (SQF) (done)
+2024-11-16T10:06:44.496147Z TRACE ThreadId(01) phase: init (Binarize) (start)
+2024-11-16T10:06:44.496156Z TRACE ThreadId(01) Using Binarize path from registry
+2024-11-16T10:06:44.496222Z TRACE ThreadId(01) phase: init (Binarize) (done)
+2024-11-16T10:06:44.496225Z TRACE ThreadId(01) phase: check (Hooks) (start)
+2024-11-16T10:06:44.496227Z TRACE ThreadId(01) phase: check (Hooks) (done)
+2024-11-16T10:06:44.496229Z TRACE ThreadId(01) phase: check (Rapifier) (start)
+2024-11-16T10:06:44.496259Z TRACE ThreadId(01) phase: check (Rapifier) (done)
+2024-11-16T10:06:44.496260Z TRACE ThreadId(01) phase: check (SQF) (start)
+2024-11-16T10:06:44.496283Z TRACE ThreadId(01) phase: check (SQF) (done)
+2024-11-16T10:06:44.496285Z TRACE ThreadId(01) phase: check (Binarize) (start)
+2024-11-16T10:06:44.504200Z  INFO ThreadId(01) Validated 0 files for binarization
+2024-11-16T10:06:44.504216Z TRACE ThreadId(01) phase: check (Binarize) (done)
+2024-11-16T10:06:44.504220Z TRACE ThreadId(01) phase: pre_build (Hooks) (start)
+2024-11-16T10:06:44.504226Z TRACE ThreadId(01) phase: pre_build (Hooks) (done)
+2024-11-16T10:06:44.504227Z TRACE ThreadId(01) phase: pre_build (Rapifier) (start)
+2024-11-16T10:06:44.550574Z  INFO ThreadId(01) Rapified 2 addon configs
+2024-11-16T10:06:44.550606Z TRACE ThreadId(01) phase: pre_build (Rapifier) (failed)
+2024-11-16T10:06:44.556728Z TRACE ThreadId(01) writing ci annotations to .hemttout/ci_annotations.txt
+2024-11-16T10:06:44.557106Z TRACE ThreadId(01) wrote 14 ci annotations to .hemttout/ci_annotations.txt
