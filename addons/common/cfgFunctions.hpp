@@ -2,7 +2,7 @@ class bwi_common
 {
 	class functions
 	{
-		file = "\common\functions";
+		file = "z\bwi\addons\common\functions";
 
         class log{};
 		class notification{};
@@ -47,7 +47,7 @@ class bwi_common
 
 	class xeh
 	{
-		file = "\common\xeh";
+		file = "z\bwi\addons\common\xeh";
 
 		class resetServerSettings{};
 		class initCBASettings{};

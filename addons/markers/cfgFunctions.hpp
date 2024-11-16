@@ -1,6 +1,6 @@
 class bwi_markers {
     class functions {
-    file = "\markers\functions";
+    file = "z\bwi\addons\markers\functions";
 
         class getIncrementedMarkerName{};
 
@@ -32,7 +32,7 @@ class bwi_markers {
 
 	class gui_functions
 	{
-		file = "\markers\gui\functions";
+		file = "z\bwi\addons\markers\gui\functions";
 
         class initMenu{};
         class moveMenu{};
@@ -50,7 +50,7 @@ class bwi_markers {
 
     class xeh
     {
-        file = "\markers\xeh";
+        file = "z\bwi\addons\markers\xeh";
         class initCBASettings{};
         class initMarkers{};
     };
